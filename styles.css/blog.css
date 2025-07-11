@@ -1,6 +1,5 @@
-img {
-    max-width: 100%;
-    display: block;
+body {
+    padding: 2px 2px;
 }
 
 .navbar {
@@ -34,7 +33,7 @@ button {
 }
 
 .button_top :hover {
-    background-color: black;
+    background-color: rgb(226, 11, 11);
 }
 
 .bannar-title {
@@ -58,14 +57,18 @@ button {
     font-size: smaller;
 }
 
+.button_head :hover {
+    background-color: rebeccapurple;
+}
+
 .action {
     display: grid;
     gap: 3rem;
     grid-template-columns: minmax(280px, 1fr);
     align-items: center;
     display: flex;
-    margin-top: 10%;
     padding: 5rem 6vw;
+    background-color: whitesmoke;
 }
 
 .action_text h2 {
@@ -126,7 +129,6 @@ button {
 .contact {
     display: flex;
     background-color: rgb(219, 215, 209);
-    margin-top: 5%;
 }
 
 .contact_form label {
@@ -152,9 +154,21 @@ button {
 .footer {
     text-align: center;
     padding: 3rem 6vw 4rem;
-    color: black;
     font-weight: 700;
     letter-spacing: 1px;
     background-color: rgb(185, 169, 169);
-    margin-top: 5%;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+nav li :hover {
+    background-color: #555;
 }
