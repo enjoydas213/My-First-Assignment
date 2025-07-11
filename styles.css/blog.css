@@ -1,3 +1,8 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -17,11 +22,19 @@
 
 }
 
+button {
+    display: inline-block;
+}
+
 .button_top {
     background: blue;
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+.button_top :hover {
+    background-color: black;
 }
 
 .bannar-title {
@@ -96,4 +109,52 @@
 
 .label {
     color: #555;
+}
+
+.contact {
+    display: grid;
+    gap: 3rem;
+    align-items: start;
+    padding: 5rem 6vw;
+    grid-template-columns: repeat() minmax(280px);
+}
+
+.contact_title h2 {
+    font-size: 2.2rem;
+}
+
+.contact {
+    display: flex;
+    background-color: rgb(219, 215, 209);
+    margin-top: 5%;
+}
+
+.contact_form label {
+    display: block;
+    margin-bottom: 1.0rem;
+    font-size: 1rem;
+}
+
+.contact_form input,
+.contact_form textarea {
+    width: 100%;
+    padding: 0.7rem 0.9rem;
+    border: 1px solid;
+    border-radius: 2px;
+    resize: vertical;
+    background-color: whitesmoke;
+}
+
+.contact_form button {
+    margin-top: 0.5rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 3rem 6vw 4rem;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: rgb(185, 169, 169);
+    margin-top: 5%;
 }
