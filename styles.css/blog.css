@@ -2,5 +2,98 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px;
+    padding: 3px;
+    font-size: large;
+    background-image: url('../images/Hero-bg.png');
+    margin-right: 2px;
+
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: blue;
+    text-decoration-line: none;
+
+}
+
+.button_top {
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.bannar-title {
+    font-size: 2rem, 4vw + 1rem, 3rem;
+
+}
+
+.banner {
+    background-image: url('../images/Hero-bg.png');
+    text-align: center;
+    padding: 7rem 6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button_head {
+    background-color: blue;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: smaller;
+}
+
+.action {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: minmax(280px, 1fr);
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+    padding: 5rem 6vw;
+}
+
+.action_text h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.action_media img {
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.users {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 4rem 6vw;
+}
+
+.user h2 {
+    margin-bottom: 2.5rem;
+}
+
+.users_stats {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.users_stats li {
+    text-align: center;
+}
+
+.numbers {
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    color: blue;
+}
+
+.label {
+    color: #555;
 }
